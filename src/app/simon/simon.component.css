@@ -17,8 +17,6 @@
   margin-bottom: 22px;
 }
 
-
-
 .key {
   animation: appear 2.5s;
   min-width: 100px;
@@ -33,19 +31,43 @@
 }
 
 .key.verde{
-  background: #2ecc71;
+  background: #33a763;
+}
+
+.key.verde:hover{
+  background: green;
+  color: black;
+  border-color: green;
 }
 
 .key.azul{
-  background: cornflowerblue;
+  background: rgb(107, 142, 206);
+}
+
+.key.azul:hover{
+  background: blue;
+  color: black;
+  border-color: blue;
 }
 
 .key.amarillo{
-  background: #ffde03;
+  background: #c2ab1a;
+}
+
+.key.amarillo:hover{
+  background: #ffdd00;
+  color: black;
+  border-color: yellow;
 }
 
 .key.rojo{
-  background: red;
+  background: rgb(216, 51, 51);
+}
+
+.key.rojo:hover{
+  background: rgb(252, 1, 1);
+  color: black;
+  border-color: red;
 }
 
 .key.active {
